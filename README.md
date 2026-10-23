@@ -26,6 +26,12 @@ Start with the [scientific map](science/README.md) and [model](science/model.md)
 
 [Related work](references/RELATED_WORK.md) distinguishes the optical results from inherited continuous-LWE hardness and Gaussian-pancake learning gaps. The [bibliography](references/references.bib) gives the primary sources. [llms.txt](llms.txt) maps specific questions to authoritative statements.
 
+## Learning route
+
+The single educational anchor is **Chris Peikert, *A Decade of Lattice Cryptography***, using the revised [ePrint 2015/939](https://eprint.iacr.org/2015/939) PDF dated 17 February 2016. The [Peikert bridge](learning/PEIKERT_BRIDGE.md) selects the relevant sections, translates Gaussian and LWE notation, and develops the optical experiment through a worked two-mode example. Continuous-LWE hardness is attributed to its later primary source, not to the survey.
+
+The [30-milestone map](learning/MILESTONES.md) has **15 background/preliminaries** targets and **15 narrative/innovation** targets. Each has a central question, understanding target, dependencies, conceptual connection and scientific source pointers. Start with the [learning guide](learning/README.md), or go directly to the authoritative proofs above.
+
 ## Reproduce the finite checks
 
 Using Python 3.13:
@@ -34,6 +40,7 @@ Using Python 3.13:
 python3 -m venv .venv
 .venv/bin/python -m pip install -r verification/requirements.txt
 OPENBLAS_NUM_THREADS=1 .venv/bin/python verification/verify.py
+OPENBLAS_NUM_THREADS=1 .venv/bin/python verification/check_learning.py
 ```
 
 The suite checks Fourier/mixture identities, the optical kernel, finite Fock trace distances, actual mixed-state quantum Fisher information, source-nuisance algebra, null symmetry and seeded two-batch estimation. The [verification guide](verification/README.md) and [stored report](verification/expected_results.json) give exact cases and tolerances. Finite checks do not prove asymptotic statements or test cryptographic hardness.

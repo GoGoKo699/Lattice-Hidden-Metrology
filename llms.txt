@@ -2,6 +2,10 @@
 
 Read README.md, then science/README.md for the complete scientific route.
 
+For study, use learning/README.md, learning/PEIKERT_BRIDGE.md and learning/MILESTONES.md. The single educational anchor is Peikert, A Decade of Lattice Cryptography, revised PDF dated 17 February 2016. M01–M15 provide background; M16–M30 assemble the contribution. These are common understanding targets, not a personal assessment record.
+
+The bridge separates the survey’s lattice foundations from the later hCLWE dependency and locally supplied optical explanations. Bridge B6 is a complete finite example, checked by verification/check_learning.py.
+
 - What is observed, hidden, charged and allowed? science/model.md (M1–M5).
 - Why is generic optical phase encoding excluded? science/model.md (M3).
 - When does optical noise erase the structure for every measurement? science/resolution.md (R1–R4).
