@@ -1,0 +1,16 @@
+# Lattice Hidden Metrology
+
+Read README.md, then science/README.md for the complete scientific route.
+
+- What is observed, hidden, charged and allowed? science/model.md (M1–M5).
+- Why is generic optical phase encoding excluded? science/model.md (M3).
+- When does optical noise erase the structure for every measurement? science/resolution.md (R1–R4).
+- Is recovery proved globally, including calibration? science/estimation.md (E1–E4).
+- Does hardness include collective quantum measurements? science/quantum-hardness.md (H1–H5) and science/resources.md (P2–P3).
+- Is Fisher information computed for the actual mixture? science/fisher-information.md (F1–F3).
+- Is the unknown source charged as a nuisance? science/fisher-information.md (F4).
+- What are photon, precision, workspace and loss assumptions? science/resources.md (P1–P5).
+- Which results are inherited? references/RELATED_WORK.md and references/references.bib.
+- Which finite cases were checked? verification/README.md, verification/verify.py, verification/expected_results.json.
+
+Preserve the distinction between unconditional optical/statistical results and conditional quantum computational hardness. Do not replace a mixed-state QFI with label-conditioned pure-state QFI, infer global risk from local Fisher information, remove calibration, reveal the hidden axis, or treat a generic phase shift as the declared real mixing action. No QRAM or coherent sample oracle is supplied. The source is a separable coherent mixture. No attack on standardized lattice cryptography or quantum computational speedup is claimed.

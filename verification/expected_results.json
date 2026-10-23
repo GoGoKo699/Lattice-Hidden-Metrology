@@ -1,0 +1,151 @@
+{
+  "assertions": 3748,
+  "density_and_gap": {
+    "direction_checks": 2727,
+    "max_density_error": 1.1947539621691166e-15,
+    "max_gap_violation": 6.505213034913027e-19,
+    "max_variance_error": 5.551115123125783e-17,
+    "parameter_cases": 27
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "scipy": "1.17.0"
+  },
+  "estimator_demo": {
+    "R": 15.0,
+    "beta": 0.2,
+    "copies_per_batch": 1500,
+    "dimension": 2,
+    "errors": [
+      0.0006614961155456955,
+      0.001205109696598261,
+      0.008946954381452932,
+      0.005728431712476015,
+      7.648071861793282e-05,
+      0.008458358430738777,
+      0.00422246771862167,
+      0.008476908191224583
+    ],
+    "gamma": 3.0,
+    "max_angle_error": 0.008946954381452932,
+    "trials": 8,
+    "warning": "Low-dimensional illustration, not a cryptographically hard instance or proof of the sample theorem."
+  },
+  "fisher_information": [
+    {
+      "R": 1.0,
+      "beta": 0.25,
+      "cutoff_difference": 7.719519468096792e-17,
+      "gamma": 1.4,
+      "homodyne_fi": 0.00034945799948205486,
+      "mixed_qfi": 0.0059075899087234,
+      "qfi_upper": 0.6366197723675814,
+      "witness_lower": 5.09677666736554e-18
+    },
+    {
+      "R": 1.8,
+      "beta": 0.25,
+      "cutoff_difference": 1.4557244298885053e-12,
+      "gamma": 1.4,
+      "homodyne_fi": 0.019589007432212202,
+      "mixed_qfi": 0.1541084334671777,
+      "qfi_upper": 2.0626480624709638,
+      "witness_lower": 2.50713352971837e-05
+    },
+    {
+      "R": 1.8,
+      "beta": 0.6,
+      "cutoff_difference": 1.75799305668356e-12,
+      "gamma": 1.4,
+      "homodyne_fi": 0.0030269430249922585,
+      "mixed_qfi": 0.022122356238518038,
+      "qfi_upper": 2.0626480624709638,
+      "witness_lower": 4.660226669704555e-08
+    }
+  ],
+  "geometry": {
+    "dimensions": [
+      2,
+      4,
+      10,
+      20
+    ],
+    "max_angle_error": 1.1102230246251565e-16,
+    "sign_cases": 320
+  },
+  "null_symmetry": {
+    "generic_phase_counterexamples": 3,
+    "max_real_mixing_covariance_error": 3.4139508366088984e-17
+  },
+  "optical_kernel": {
+    "cases": 12,
+    "max_absolute_error": 2.8609792490763984e-17
+  },
+  "resolved_fisher": [
+    {
+      "R": 10.0,
+      "beta": 0.2,
+      "gamma": 2.0,
+      "homodyne_fi_over_R2": 0.22648039988454516,
+      "limiting_witness": 0.24145300700522387,
+      "witness_over_R2": 0.19205040539501197
+    },
+    {
+      "R": 30.0,
+      "beta": 0.1,
+      "gamma": 3.0,
+      "homodyne_fi_over_R2": 0.24124965455797814,
+      "limiting_witness": 0.24145300700522387,
+      "witness_over_R2": 0.23744419538276662
+    },
+    {
+      "R": 80.0,
+      "beta": 0.05,
+      "gamma": 4.0,
+      "homodyne_fi_over_R2": 0.24142439266974025,
+      "limiting_witness": 0.24145300700522387,
+      "witness_over_R2": 0.24109804842937707
+    }
+  ],
+  "scope": "Finite algebra, quadrature, Fock-cutoff and seeded estimator checks; not cryptographic or asymptotic proof.",
+  "seed": 20261023,
+  "trace_distance": [
+    {
+      "R": 0.8,
+      "beta": 0.3,
+      "distance": 0.006520800770162361,
+      "gamma": 1.3,
+      "lower": 1.0276360427040644e-13,
+      "trace_deficit": 2.220446049250313e-16,
+      "upper": 0.012786836692441643
+    },
+    {
+      "R": 1.6,
+      "beta": 0.3,
+      "distance": 0.037920189266736265,
+      "gamma": 1.3,
+      "lower": 0.00026851655747422846,
+      "trace_deficit": 0.0,
+      "upper": 0.043833581424736597
+    },
+    {
+      "R": 2.4,
+      "beta": 0.3,
+      "distance": 0.10757841856739173,
+      "gamma": 1.3,
+      "lower": 0.014889645443462902,
+      "trace_deficit": 1.8762769116165146e-14,
+      "upper": 0.11874824793849155
+    },
+    {
+      "R": 2.4,
+      "beta": 0.7,
+      "distance": 0.00252675817971175,
+      "gamma": 2.0,
+      "lower": 1.5775552668263033e-05,
+      "trace_deficit": 1.8762769116165146e-14,
+      "upper": 0.002543863265923429
+    }
+  ]
+}
